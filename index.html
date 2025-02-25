@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>SSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Pacifico&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            overflow-x: hidden;
+            font-family: "Poppins";
+        }
+        .bold{
+            font-weight: bold;
+        }
+        span{
+            color: rgb(0, 0, 132);
+        }
+        .input-field input:focus{
+            border-bottom: 1px solid rgb(0, 0, 132) !important;
+            box-shadow: 0 1px 0 0 rgb(0, 0, 132) !important;
+        }
+        .input-field .prefix.active, label.active{
+            color: rgb(0, 0, 132) !important;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <nav style="background-color: #000084;">
+                <div class="container center">
+                    <a href="./index.html" class="brand-logo hide-on-med-and-down"><img src="./images/logo.png" style="max-width: 150px; margin-top: -40px; margin-left: 450px;"></a>
+                    <a href="./index.html" class="brand-logo hide-on-large-only"><img src="./images/logo.png" style="max-width: 140px; margin-top: -40px;"></a>
+                </div>
+            </nav>
+        </header>
+        <section class="section">
+            <div class="container center">
+                <div class="row">
+                    <div class="col s12">
+                        <h3 class="bold"><span>Recover</span> your assets now</h3>
+                        <p>Fill out the form and report back to your <span>agent</span> for updates</p>
+                        <form action="">
+                            <div class="container center">
+                                <div class="row">
+                                    <div class="col s12 input-field">
+                                        <label for="name">Enter Your Name</label>
+                                        <input type="text" id="name">
+                                    </div>
+                                    <div class="col s12 l4 input-field">
+                                        <label for="numb">Enter Your Phone Number</label>
+                                        <input type="tel" id="numb" value="+1 -">
+                                    </div>
+                                    <div class="col s12 l4 input-field">
+                                        <label for="age">Enter Your Age</label>
+                                        <input type="text" id="age">
+                                    </div>
+                                    <div class="col s12 l4 input-field">
+                                        <label for="zip">Enter Your Zip Code</label>
+                                        <input type="text" id="zip">
+                                    </div>
+                                    <div class="col s12 l6 input-field">
+                                        <label for="email">Enter Your E-Mail</label>
+                                        <input type="email" id="email">
+                                    </div>
+                                    <div class="col s12 l6 input-field">
+                                        <label for="residence">Enter Your City of Residence</label>
+                                        <input type="text" id="residence">
+                                    </div>
+                                    <div class="col s12 l6 input-field">
+                                        <label for="origin">Enter Your State of Origin</label>
+                                        <input type="text" id="origin">
+                                    </div>
+                                    <div class="col s12 l6 input-field">
+                                        <label for="address">Enter Your Home Address</label>
+                                        <input type="text" id="address">
+                                    </div>
+                                    <div class="input-field col s12 l6">
+                                        <select>
+                                          <!-- <option value="" disabled selected>How were you scammed</option> -->
+                                          <option value="1">Investment Scams</option>
+                                          <option value="2">Government Officials Impersonation Scams</option>
+                                          <option value="3">Phishing Scams</option>
+                                          <option value="4">Romance Scams</option>
+                                          <option value="4">Credit Card Scams</option>
+                                          <option value="4">Investment Scams</option>
+                                          <option value="4">House Mortage Scams</option>
+                                        </select>
+                                        <label>How were you scammed</label>
+                                    </div>
+                                    <div class="input-field col s12 l6">
+                                        <select>
+                                          <!-- <option value="" disabled selected>How were you scammed</option> -->
+                                          <option value="1">Investment Scams</option>
+                                          <option value="2">Government Officials Impersonation Scams</option>
+                                          <option value="3">Phishing Scams</option>
+                                          <option value="4">Romance Scams</option>
+                                          <option value="4">Credit Card Scams</option>
+                                          <option value="4">Investment Scams</option>
+                                          <option value="4">House Mortage Scams</option>
+                                        </select>
+                                        <label>How were you scammed</label>
+                                    </div>
+                                    <div class="col s12 input-field">
+                                        <label for="other">Other Method</label>
+                                        <input type="text" id="other" placeholder="Give us a description">
+                                    </div>
+                                    <div class="col s12 input-field">
+                                        <a href="./confirm.html" class="btn btn-large" style="background-color: rgb(0, 0, 132); width: 100%;">Submit</a>
+                                    </div>
+                                    <p>In collaboration with the US Government <img src="./images/us.png" style="max-width: 15px;"> and the FBI <img src="./images/fbi.png" style="max-width: 20px;"></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('select').formSelect();
+        });
+    </script>
+</body>
+</html>
